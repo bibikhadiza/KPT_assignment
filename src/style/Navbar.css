@@ -27,3 +27,8 @@ i.icon {
   margin-left: 20px;
   position: relative;
 }
+
+
+.ui.segment {
+  margin: 0;
+}

@@ -1,0 +1,91 @@
+footer {
+  background-color: #1e0576;
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  height: 100%;
+}
+
+.footer-bottom{
+  width: 100%;
+}
+
+.footer-content{
+  margin-left: 3%;
+}
+
+.contact-info{
+  display: inline-block;
+  margin: 20px 0;
+  line-height: 1.3;
+  position: relative;
+  width: 100%;
+  margin-bottom: 3em;
+  margin-top: 5%;
+}
+
+h2{
+  font-size: 2.514rem;
+  float: left;
+  margin-right: 150px;
+
+}
+
+h3 {
+  font-size: 1.78rem;
+  padding-bottom: 5px;
+  border-bottom: solid 1px;
+  width: 34%;
+  float: left;
+  text-align: left;
+  margin-bottom: 20px;
+  position: relative;
+}
+.list-header{
+  width: 30%;
+}
+
+.ui.fluid.button, .ui.fluid.buttons{
+  width: ;
+}
+
+.ui.fluid.button{
+  color: #1e0576;
+  width:200px;
+  float: left;
+  margin-right: 150px;
+}
+
+.list{
+  position: relative;
+  margin-top: 5%;
+}
+
+/*ul{
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+  display: block;
+  margin: 60 0 20px;
+  position: relative;
+  list-style-type: none;
+  text-align: left;
+}*/
+
+.row{
+  display: block;
+  width: 100%;
+}
+
+
+.list>.item{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  position: relative;
+  float: left;
+  text-align: left;
+
+}
