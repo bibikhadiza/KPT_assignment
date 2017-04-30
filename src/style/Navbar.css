@@ -1,0 +1,29 @@
+.ui.inverted.segment, .ui.primary.inverted.segment {
+  background-color: #1e0576;
+  min-height: 60px;
+  padding-bottom: 0;
+  border-radius: 0;
+}
+
+img{
+  height: 5%;
+  width: 15%;
+  position: relative;
+  padding-right: 15px;
+  margin-left: 15px;
+}
+
+.item {
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+.ui.secondary.inverted.pointing.menu .item {
+    color: #faf9f3;
+    margin-top: -10px;
+}
+
+i.icon {
+  margin-left: 20px;
+  position: relative;
+}
