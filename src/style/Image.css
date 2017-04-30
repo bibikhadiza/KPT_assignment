@@ -1,9 +1,46 @@
 .heroImage{
   position: relative;
-  min-width: 100%;
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('https://kaptest.cdn.prismic.io/kaptest/15375d0f0cd93f9832916892016291f4b78bf1c1_billboard-prep-options-c.jpg');
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  color: #faf9f3;
 }
 
 img{
   margin-left: 0px;
   padding-right: 0px;
+}
+
+h1{
+  position: relative;
+  margin-bottom: 1.5rem;
+  font-weight: 550;
+  font-size: 50px;
+}
+
+hr {
+  border: 0;
+  height: 5px;
+  width: 40px;
+  background-color: #ffc72e;
+  margin-bottom: 1.5em;
+}
+
+h4{
+  font-size: 1.375rem;
+  line-height: 1.3;
+  margin: 1rem auto;
+  max-width: 40rem;
+  font-weight: 300;
+}
+
+.heroImage-content{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
