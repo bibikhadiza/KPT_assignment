@@ -1,0 +1,80 @@
+.cards-container{
+  background-color: #faf9f3;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  border: 0;
+  height: 830px;
+}
+
+.single-card-row{
+  max-width: 75rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.cards-title{
+  color: red;
+}
+
+h2.cards-title {
+  width: 100%;
+  text-align: center;
+  color: #1e0576;
+  margin-bottom: 1.5rem;
+  margin-top: 9%;
+  font-size: 2.675rem;
+}
+
+.kaplan-benefits {
+  width: 100%;
+  height: 260px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  top: -10px;
+}
+
+.star-columns {
+  height: 90%;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  top: 12px;
+}
+
+.star-content{
+  height: 100%;
+  width: 20%;
+  float: left;
+  margin: 2.5%;
+  margin-top: 0;
+}
+
+.star-image{
+  position: relative;
+  width: 50%;
+  height: 30%;
+}
+
+.star-title{
+  position: relative;
+  width: 100%;
+  font-size: 2vw;
+  color: #1e0576;
+  max-width: 600px;
+  top: -10px;
+}
+
+.star-description{
+  width: 100%;
+  font-size: 1.4vw;
+  line-height: 1.4em;
+  color: #646464;
+}

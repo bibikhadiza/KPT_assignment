@@ -28,10 +28,9 @@ h2{
   font-size: 2.514rem;
   float: left;
   margin-right: 150px;
-
 }
 
-h3 {
+.row h3 {
   font-size: 1.78rem;
   padding-bottom: 5px;
   border-bottom: solid 1px;
@@ -41,6 +40,7 @@ h3 {
   margin-bottom: 20px;
   position: relative;
 }
+
 .list-header{
   width: 30%;
 }
@@ -61,19 +61,6 @@ h3 {
   margin-top: 5%;
 }
 
-/*ul{
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 40px;
-  display: block;
-  margin: 60 0 20px;
-  position: relative;
-  list-style-type: none;
-  text-align: left;
-}*/
-
 .row{
   display: block;
   width: 100%;
@@ -87,5 +74,4 @@ h3 {
   position: relative;
   float: left;
   text-align: left;
-
 }

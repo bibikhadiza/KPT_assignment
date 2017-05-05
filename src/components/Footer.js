@@ -1,11 +1,12 @@
-import React from 'react'
-import { Button } from 'semantic-ui-react'
-import { List, Segment } from 'semantic-ui-react'
-import "../style/Footer.css"
+import React from 'react';
+import { Button } from 'semantic-ui-react';
+import { List } from 'semantic-ui-react';
+import "../style/Footer.css";
 
 const Footer = () => (
   <footer>
     <div className="footer-content">
+
       <div className="contact-info">
         <h2>Contact Us</h2>
         <Button as="button" fluid={true} icon="call" content="1-800-KAP-TEXT" size="large"/>
@@ -24,19 +25,12 @@ const Footer = () => (
                 </List.Content>
               </List.Item>
             </List>
-
-
           </div>
         </div>
       </div>
 
-
-
-
-
- </div>
-</footer>
-)
-
+    </div>
+  </footer>
+);
 
 export default Footer;

@@ -1,0 +1,69 @@
+.hsg-container{
+  padding: 2.4em 0 1em;
+  background-color: #171a60;
+  height: 330px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hsg-row{
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+}
+
+.hsg-firstrow{
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+
+.hsg-icon{
+  width: 65%;
+  height: 55%;
+  float: right;
+  top: 30px;
+}
+
+.hsg-secondrow{
+  width: 65%;
+  height: 100%;
+  float: left;
+}
+
+.dont-take{
+  width: 100%;
+  font-size: 2.2vw;
+  line-height: 1.7;
+  letter-spacing: .5px;
+}
+
+.high-score{
+  width: 100%;
+  color: #ffc72e;
+  font-size: 4vw;
+  line-height: 1.2;
+  letter-spacing: .7px;
+  margin-top: -6px;
+}
+
+.money-back{
+  color: #ffc72e;
+  font-size: 2vw;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.hsg-description{
+  color: #f1f1f1;
+  line-height: 1.5;
+  letter-spacing: .2px;
+  font-size: 1.3vw;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  border-bottom: 1px dotted;
+}

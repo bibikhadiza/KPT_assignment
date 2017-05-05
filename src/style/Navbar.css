@@ -19,15 +19,14 @@ img{
 }
 
 .ui.secondary.inverted.pointing.menu .item {
-    color: #faf9f3;
-    margin-top: -10px;
+  color: #faf9f3;
+  margin-top: -10px;
 }
 
 i.icon {
   margin-left: 20px;
   position: relative;
 }
-
 
 .ui.segment {
   margin: 0;

@@ -1,0 +1,28 @@
+.channel-container{
+  background-color: #2b3f47;
+  text-align: center;
+  padding: 4em 0;
+  height: 450px;
+  width: 100%;
+  position: relative;
+  text-align:center;
+}
+
+.channel-content{
+  position: relative;
+  margin: 0 auto;
+  text-align: center !important;
+  height: 100%;
+  width: 70%;
+  display: block;
+}
+
+h3.channel-title{
+  font-size: 6vh;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+.ui.yellow.button, .ui.yellow.buttons .button {
+  color: #1e0576;
+}

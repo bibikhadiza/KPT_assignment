@@ -1,0 +1,93 @@
+.ui.steps {
+  margin: 0;
+  width: 97%;
+  height: 105px;
+  border: solid 1px #1e0576;
+}
+
+.steps{
+  margin-bottom: 80px;
+  width: 100%;
+  position: relative;
+  height: 320px;
+}
+
+.ui.steps .step:last-child {
+  width: 40%;
+}
+
+.ui.steps .step.active {
+  cursor: auto;
+  background: #1e0576;
+}
+
+a.active.step.step-left{
+  border-radius: none;
+}
+
+.step-title{
+  position: relative;
+  color: #646464;
+  height: 100%;
+  float: left;
+  font-size: 1.2rem;
+  font-weight: 200;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.ui.steps .step.active .title {
+  color: #fff;
+  font-size: 1.33vw;
+}
+
+.ui.steps .step .title~.description {
+  color: #fff;
+  font-size: .9vw;
+}
+
+.second-step.description{
+  font-size: .9vw;
+}
+
+.second-step.title{
+  font-size: 1.6vw;
+}
+
+.ui.steps .step.active:after {
+  background: #1e0576;
+}
+
+.second-step{
+  background-color: #171a5b !important;
+}
+
+button{
+  cursor: pointer;
+  width: 25%;
+  height: 50px;
+  background-color: #005de8;
+  color: #fff;
+  border-radius: 2px;
+  border: solid 1px;
+  padding: 10px 0;
+  font-size: 1.3vw;
+}
+
+.step-price {
+  color: blue;
+  width: 20%;
+  float: left;
+  text-align: center;
+  font-size: 2vw;
+  color: #1e0576;
+}
+
+.content{
+  display: inline-block;
+}
+
+.ui.steps .step:last-child {
+  width: 40%;
+  margin: 0 auto;
+}
